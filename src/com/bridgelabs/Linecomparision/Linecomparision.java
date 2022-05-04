@@ -19,5 +19,19 @@ public class Linecomparision {
     int y2= sc.nextInt();
     double length1=Math.sqrt(((x2-x1)*(x2-x1))+((y2-y1)*(y2-y1)));
     System.out.println("Total Length of line 1 is : " +length1);
+    System.out.print("Enter  cordinates of x3:  ");// Xaxis coordinates of Line2
+    int x3= sc.nextInt();
+    System.out.print("Enter cordinates of x4:  ");// Xaxis coordinates of Line2
+    int x4= sc.nextInt();
+    System.out.print("Enter cordinates of  y3: ");// Yaxis coordinates of Line2
+    int y3= sc.nextInt();
+    System.out.print("Enter cordinates of  y4: ");// Yaxis coordinates of Line2
+    int y4= sc.nextInt();
+    double length2=Math.sqrt(((x4-x3)*(x4-x3))+((y4-y3)*(y4-y3)));
+    System.out.println("Total Length of line 2 is : " +length2);
+    if( length1 == length2 ){
+        System.out.println("TWO Lines are Equal");
+    
+}
 }
 }
